@@ -122,18 +122,8 @@ Here is an example of a task type with a `resource` property. The `Resource` typ
 [source.multi-language-sample,java]
 .Download.java
 ----
-include::{snippetsPath}/plugins/readOnlyNestedProperty/java/buildSrc/src/main/java/Download.java[tags=download]
-include::{snippetsPath}/plugins/readOnlyNestedProperty/java/buildSrc/src/main/java/Resource.java[tags=resource]
-----
-[source.multi-language-sample,kotlin]
-.Download.kt
-----
-include::{snippetsPath}/plugins/readOnlyNestedProperty/kotlin/buildSrc/src/main/kotlin/Download.kt[tags=download]
-----
-[source.multi-language-sample,groovy]
-.Download.groovy
-----
-include::{snippetsPath}/plugins/readOnlyNestedProperty/groovy/buildSrc/src/main/groovy/Download.groovy[tags=download]
+include::{snippetsPath}/plugins/readOnlyNestedProperty/groovy/buildSrc/src/main/java/Download.java[tags=download]
+include::{snippetsPath}/plugins/readOnlyNestedProperty/groovy/buildSrc/src/main/java/Resource.java[tags=resource]
 ----
 ====
 
