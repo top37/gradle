@@ -19,8 +19,8 @@ package org.gradle.test.fixtures.junitplatform
 import groovy.io.FileType
 
 class JUnitPlatformTestRewriter {
-    static final String LATEST_JUPITER_VERSION = '5.1.0'
-    static final String LATEST_VINTAGE_VERSION = '5.1.0'
+    static final String LATEST_JUPITER_VERSION = '5.6.2'
+    static final String LATEST_VINTAGE_VERSION = '5.6.2'
     static Map replacements = ['org.junit.Test': 'org.junit.jupiter.api.Test',
                                'org.junit.Before;': 'org.junit.jupiter.api.BeforeEach;',
                                'org.junit.After;': 'org.junit.jupiter.api.AfterEach;',
@@ -71,7 +71,7 @@ class JUnitPlatformTestRewriter {
     }
 
     static rewriteBuildFileWithVintage(File buildFile, String dependencyVersion) {
-        rewriteBuildFileInDir(buildFile, "org.junit.vintage:junit-vintage-engine:${dependencyVersion}','junit:junit:4.12")
+        rewriteBuildFileInDir(buildFile, "org.junit.vintage:junit-vintage-engine:${dependencyVersion}','junit:junit:4.13")
     }
 
     static rewriteJavaFilesWithJupiterAnno(File rootProject) {

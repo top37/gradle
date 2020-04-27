@@ -120,7 +120,7 @@ class BomSupportPluginsSmokeTest extends AbstractSmokeTest {
                         constraint("org.springframework.boot:spring-boot-test:$bomVersion")
                         constraint("org.springframework.boot:spring-boot-autoconfigure:$bomVersion")
                         constraint("org.springframework.boot:spring-boot-test-autoconfigure:$bomVersion")
-                        constraint("junit:junit:4.12")
+                        constraint("junit:junit:4.13")
                         constraint("org.hamcrest:hamcrest-core:1.3")
                         noArtifacts()
                     }
@@ -130,7 +130,7 @@ class BomSupportPluginsSmokeTest extends AbstractSmokeTest {
                 edge("org.springframework.boot:spring-boot-autoconfigure", "org.springframework.boot:spring-boot-autoconfigure:$bomVersion", springBootAutoconfigureDeps).byReason(reason2)
                 edge("org.springframework.boot:spring-boot", "org.springframework.boot:spring-boot:$bomVersion", springBootDeps).byReason(reason2)
                 edge("org.springframework:spring-test", "org.springframework:spring-test:${springVersion}", springTestDeps).byReason(reason2)
-                edge("junit:junit", "junit:junit:4.12", junitDeps).byReason(reason2)
+                edge("junit:junit", "junit:junit:4.13", junitDeps).byReason(reason2)
             }
         }
 

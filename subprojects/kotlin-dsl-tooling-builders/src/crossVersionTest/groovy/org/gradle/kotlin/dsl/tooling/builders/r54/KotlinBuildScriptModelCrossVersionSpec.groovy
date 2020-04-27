@@ -96,7 +96,7 @@ class KotlinBuildScriptModelCrossVersionSpec extends AbstractKotlinScriptModelCr
         withFile("buildSrc/build.gradle.kts").tap { buildSrcScript ->
             buildSrcScript.text = buildSrcScript.text + """
                 dependencies {
-                    testImplementation("junit:junit:4.12")
+                    testImplementation("junit:junit:4.13")
                 }
             """
         }
