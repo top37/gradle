@@ -98,8 +98,8 @@ class JUnitPlatformTestRewriter {
     static rewriteBuildFile(File buildFile, String dependenciesReplacement, String moduleName) {
         String text = buildFile.text
         // compile/testCompile/implementation/testImplementation
-        text = text.replaceFirst(/ompile ['"]junit:junit:4\.12['"]/, "ompile '${dependenciesReplacement}'")
-        text = text.replaceFirst(/mplementation ['"]junit:junit:4\.12['"]/, "mplementation '${dependenciesReplacement}'")
+        text = text.replaceFirst(/ompile ['"]junit:junit:4\.13['"]/, "ompile '${dependenciesReplacement}'")
+        text = text.replaceFirst(/mplementation ['"]junit:junit:4\.13['"]/, "mplementation '${dependenciesReplacement}'")
         if (!text.contains('useTestNG')) {
             // we only hack build with JUnit 4
             // See IncrementalTestIntegrationTest.executesTestsWhenTestFrameworkChanges
