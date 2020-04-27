@@ -262,20 +262,8 @@ The constructor uses this to create a nested `Resource` object (also a custom Gr
 [source.multi-language-sample,java]
 .DownloadExtension.java
 ----
-include::{snippetsPath}/plugins/nestedObjects/java/buildSrc/src/main/java/DownloadExtension.java[]
-include::{snippetsPath}/plugins/nestedObjects/java/buildSrc/src/main/java/Resource.java[tags=resource]
-----
-[source.multi-language-sample,kotlin]
-.DownloadExtension.kt
-----
-include::{snippetsPath}/plugins/nestedObjects/kotlin/buildSrc/src/main/kotlin/DownloadExtension.kt[]
-include::{snippetsPath}/plugins/nestedObjects/kotlin/buildSrc/src/main/kotlin/Resource.kt[tags=resource]
-----
-[source.multi-language-sample,groovy]
-.DownloadExtension.groovy
-----
-include::{snippetsPath}/plugins/nestedObjects/groovy/buildSrc/src/main/groovy/DownloadExtension.groovy[]
-include::{snippetsPath}/plugins/nestedObjects/groovy/buildSrc/src/main/groovy/Resource.groovy[tags=resource]
+include::{snippetsPath}/plugins/nestedObjects/groovy/buildSrc/src/main/java/DownloadExtension.java[]
+include::{snippetsPath}/plugins/nestedObjects/groovy/buildSrc/src/main/java/Resource.java[tags=resource]
 ----
 ====
 
