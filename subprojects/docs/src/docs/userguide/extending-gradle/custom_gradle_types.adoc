@@ -73,17 +73,7 @@ Here is an example of a task type with a `uri` property:
 [source.multi-language-sample,java]
 .Download.java
 ----
-include::{snippetsPath}/plugins/readOnlyManagedProperty/java/buildSrc/src/main/java/Download.java[]
-----
-[source.multi-language-sample,kotlin]
-.Download.kt
-----
-include::{snippetsPath}/plugins/readOnlyManagedProperty/kotlin/buildSrc/src/main/kotlin/Download.kt[]
-----
-[source.multi-language-sample,groovy]
-.Download.groovy
-----
-include::{snippetsPath}/plugins/readOnlyManagedProperty/groovy/buildSrc/src/main/groovy/Download.groovy[]
+include::{snippetsPath}/plugins/readOnlyManagedProperty/groovy/buildSrc/src/main/java/Download.java[]
 ----
 ====
 
