@@ -258,20 +258,8 @@ See the above link for `domainObjectContainer()` method variants that allow cust
 [source.multi-language-sample,java]
 .DownloadExtension.java
 ----
-include::{snippetsPath}/plugins/namedDomainObjectContainer/java/buildSrc/src/main/java/DownloadExtension.java[]
-include::{snippetsPath}/plugins/namedDomainObjectContainer/java/buildSrc/src/main/java/Resource.java[tags=resource]
-----
-[source.multi-language-sample,kotlin]
-.DownloadExtension.kt
-----
-include::{snippetsPath}/plugins/namedDomainObjectContainer/kotlin/buildSrc/src/main/kotlin/DownloadExtension.kt[]
-include::{snippetsPath}/plugins/namedDomainObjectContainer/kotlin/buildSrc/src/main/kotlin/Resource.kt[tags=resource]
-----
-[source.multi-language-sample,groovy]
-.DownloadExtension.groovy
-----
-include::{snippetsPath}/plugins/namedDomainObjectContainer/groovy/buildSrc/src/main/groovy/DownloadExtension.groovy[]
-include::{snippetsPath}/plugins/namedDomainObjectContainer/groovy/buildSrc/src/main/groovy/Resource.groovy[tags=resource]
+include::{snippetsPath}/plugins/namedDomainObjectContainer/groovy/buildSrc/src/main/java/DownloadExtension.java[]
+include::{snippetsPath}/plugins/namedDomainObjectContainer/groovy/buildSrc/src/main/java/Resource.java[tags=resource]
 ----
 ====
 
