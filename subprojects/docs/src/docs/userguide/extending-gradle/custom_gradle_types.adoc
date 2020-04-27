@@ -202,17 +202,7 @@ Here is an example that shows a task type that receives a two services via prope
 [source.multi-language-sample,java]
 .Download.java
 ----
-include::{snippetsPath}/plugins/propertyServiceInjection/java/buildSrc/src/main/java/Download.java[]
-----
-[source.multi-language-sample,kotlin]
-.Download.kt
-----
-include::{snippetsPath}/plugins/propertyServiceInjection/kotlin/buildSrc/src/main/kotlin/Download.kt[]
-----
-[source.multi-language-sample,groovy]
-.Download.groovy
-----
-include::{snippetsPath}/plugins/propertyServiceInjection/groovy/buildSrc/src/main/groovy/Download.groovy[]
+include::{snippetsPath}/plugins/propertyServiceInjection/groovy/buildSrc/src/main/java/Download.java[]
 ----
 ====
 
