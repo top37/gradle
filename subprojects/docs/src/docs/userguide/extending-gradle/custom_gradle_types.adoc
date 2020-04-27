@@ -171,17 +171,7 @@ Here is an example that shows a task type that receives an `ObjectFactory` via i
 [source.multi-language-sample,java]
 .Download.java
 ----
-include::{snippetsPath}/plugins/constructorServiceInjection/java/buildSrc/src/main/java/Download.java[]
-----
-[source.multi-language-sample,kotlin]
-.Download.kt
-----
-include::{snippetsPath}/plugins/constructorServiceInjection/kotlin/buildSrc/src/main/kotlin/Download.kt[]
-----
-[source.multi-language-sample,groovy]
-.Download.groovy
-----
-include::{snippetsPath}/plugins/constructorServiceInjection/groovy/buildSrc/src/main/groovy/Download.groovy[]
+include::{snippetsPath}/plugins/constructorServiceInjection/groovy/buildSrc/src/main/java/Download.java[]
 ----
 ====
 
