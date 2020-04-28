@@ -15,7 +15,7 @@ import org.gradle.util.TestPrecondition
 import org.hamcrest.CoreMatchers.containsString
 import org.hamcrest.CoreMatchers.not
 
-import org.junit.Assert.assertThat
+import org.hamcrest.MatcherAssert.assertThat
 import org.junit.Before
 import org.junit.Test
 

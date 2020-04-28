@@ -46,8 +46,8 @@ dependencies {
         result.assertTestClassesExecuted('org.gradle.SkippingRuleTests')
         result.testClass('org.gradle.SkippingRuleTests')
             .assertTestCount(3, 0, 0)
-            .assertTestsExecuted('a')
-            .assertTestsSkipped('b', 'c')
+            .assertTestsExecuted('a', 'c')
+            .assertTestsSkipped('b')
     }
 
 }

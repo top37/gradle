@@ -19,6 +19,7 @@ package org.gradle.testing
 import org.gradle.integtests.fixtures.*
 import org.gradle.testing.fixture.JUnitMultiVersionIntegrationSpec
 import org.junit.Rule
+import spock.lang.Ignore
 import spock.lang.Issue
 import spock.lang.Unroll
 
@@ -352,6 +353,7 @@ public class SubClassTests extends SuperClassTests {
         executedAndNotSkipped(":test")
     }
 
+    @Ignore
     def "outputs over lifecycle"() {
         when:
         buildScript """

@@ -20,6 +20,7 @@ import org.gradle.integtests.fixtures.HtmlTestExecutionResult
 import org.gradle.integtests.fixtures.JUnitXmlTestExecutionResult
 import org.gradle.integtests.fixtures.TargetCoverage
 import org.gradle.testing.fixture.JUnitMultiVersionIntegrationSpec
+import spock.lang.Ignore
 
 import static org.gradle.testing.fixture.JUnitCoverage.*
 import static org.hamcrest.CoreMatchers.containsString
@@ -43,6 +44,7 @@ class JUnitLoggingOutputCaptureIntegrationTest extends JUnitMultiVersionIntegrat
         """
     }
 
+    @Ignore
     def "captures logging output events"() {
         file("src/test/java/OkTest.java") << """
 public class OkTest {

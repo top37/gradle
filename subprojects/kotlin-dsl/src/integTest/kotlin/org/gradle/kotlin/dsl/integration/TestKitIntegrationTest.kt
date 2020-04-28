@@ -86,7 +86,7 @@ class TestKitIntegrationTest : AbstractKotlinIntegrationTest() {
             import org.gradle.testkit.runner.*
             import org.hamcrest.CoreMatchers.*
             import org.junit.*
-            import org.junit.Assert.assertThat
+            import org.hamcrest.MatcherAssert.assertThat
             import org.junit.rules.TemporaryFolder
 
             class TestPluginTest {

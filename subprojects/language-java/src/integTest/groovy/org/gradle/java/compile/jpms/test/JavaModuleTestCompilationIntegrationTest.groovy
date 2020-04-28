@@ -42,7 +42,7 @@ class JavaModuleTestCompilationIntegrationTest extends AbstractJavaModuleTesting
         given:
         // JUnit 4.12 does not declare an Automatic-Module-Name
         buildFile << """
-            dependencies { testImplementation 'junit:junit:4.13' }
+            dependencies { testImplementation 'junit:junit:4.12' }
         """
         consumingModuleInfo('exports consumer')
         consumingModuleClass()
